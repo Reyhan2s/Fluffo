@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FluffoCoin - The Funniest Coin in the Universe</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');body {
+  font-family: 'Fredoka', sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+.price-widget {
+  background-color: #2d2d44;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 8px;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.story {
+  background-color: #2d2d44;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+footer {
+  background-color: #ff9800;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #e67e00;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FluffoCoin</h1>
+    <p>The Funniest Coin in the Universe</p>
+  </header>  <section class="hero">
+    <h2>Born from Chaos. Fueled by Laughter.</h2>
+    <button>Buy $FLUFFO Now</button>
+  </section>  <section class="price-widget">
+    <h3>$FLUFFO Live Price</h3>
+    <p id="price">Loading...</p>
+  </section>  <section class="story">
+    <h2>The Legend of Fluffo</h2>
+    <p>
+      Once upon a time, deep within the memeverse, a sentient ball of cosmic fluff was ejected from a collapsing black hole made of expired memes. That fluff rolled across the digital plains until it encountered the ghost of Harambe riding Doge. Moved by its fluffiness, Doge blessed the entity with crypto powers. And thus, FluffoCoin ($FLUFFO) was born.
+    </p>
+    <p>
+      Unlike boring coins made by finance bros, FluffoCoin runs on pure internet chaos, community laughs, and pixelated destiny. Every time someone tweets a meme, Fluffo gains strength. Every time someone sells too early, Fluffo grows fluffier. It's not just a coin — it's a movement. A fluffy, giggly, moon-bound movement.
+    </p>
+    <p>
+      Join the Fluffo Army and help the fluff rise. To the moon? Nah — to the Meme Nebula.
+    </p>
+  </section>  <footer>
+    <p>&copy; 2025 FluffoCoin. Not financial advice. Just fluff.</p>
+  </footer>  <script>
+    // Simulated price fetcher for demo purposes
+    function updatePrice() {
+      const randomPrice = (Math.random() * 0.01 + 0.0001).toFixed(6);
+      document.getElementById('price').textContent = `$${randomPrice} USD`;
+    }
+    updatePrice();
+    setInterval(updatePrice, 5000); // Update every 5 seconds
+  </script></body>
+</html>
